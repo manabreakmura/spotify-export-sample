@@ -1,0 +1,15 @@
+[project]
+name = "spotify-export-sample"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "python-decouple>=3.8",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.4",
+]
